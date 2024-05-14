@@ -337,3 +337,22 @@ a {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    & .container {
+      .product-container {
+        flex-direction: column;
+        & .product-images-section,
+        & .product-info-section {
+          width: 100%;
+        }
+      }
+    }
+    & .cards-container {
+      & .product-card {
+        width: 100%;
+      }
+    }
+  }
+}

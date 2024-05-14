@@ -333,4 +333,16 @@ a {
   color: gray;
   background-color: rgba(166, 245, 183, 0.322);
   font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper .container .product-container {
+    flex-direction: column;
+  }
+  .wrapper .container .product-container .product-images-section, .wrapper .container .product-container .product-info-section {
+    width: 100%;
+  }
+  .wrapper .cards-container .product-card {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
